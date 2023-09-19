@@ -26,6 +26,10 @@ public class Hash {
         map.put("Harshita", 48);
         System.out.println(map);
         System.out.println(map.containsKey(""));
+        Set<String> keys = map.keySet();
+        for (String key : keys) {
+            System.out.println(key + " " + map.get(key));
+        }
 
     }
 }
